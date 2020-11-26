@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AgGridModule } from 'ag-grid-angular';
+import { FilterMeComponent } from './filter-me/filter-me.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FilterMeComponent
   ],
   imports: [
     BrowserModule,
